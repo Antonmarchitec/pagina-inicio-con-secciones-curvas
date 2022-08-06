@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*GRID_CONTAINER
+GRID_HEADER
+GRID_SECTION_ONE
+GRID_SECTION_TWO
+GRID_SECTION_THREE
+GRID_SECTION_FOUR
+GRID_SECTION_FIVE
+GRID_FOOTER*/
+.GRID_CONTAINER {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "GRID_HEADER        GRID_HEADER " "GRID_SECTION_ONE   GRID_SECTION_ONE" "GRID_SECTION_TWO   GRID_SECTION_TWO" "GRID_SECTION_THREE GRID_SECTION_THREE" "GRID_SECTION_FOUR  GRID_SECTION_FOUR" "GRID_SECTION_FIVE  GRID_SECTION_FIVE" "GRID_FOOTER        GRID_FOOTER";
+}
+.GRID_CONTAINER .GRID_HEADER {
+  padding: 10px 0px;
+  background: rgb(238, 109, 109);
+  grid-area: GRID_HEADER;
+}
+.GRID_CONTAINER .GRID_SECTION_ONE {
+  padding: 10px 0px;
+  background: rgb(238, 109, 109);
+  grid-area: GRID_SECTION_ONE;
+}
+.GRID_CONTAINER .GRID_SECTION_TWO {
+  padding: 10px 0px;
+  background: rgb(238, 109, 109);
+  grid-area: GRID_SECTION_TWO;
+}
+.GRID_CONTAINER .GRID_SECTION_THREE {
+  padding: 10px 0px;
+  background: rgb(238, 109, 109);
+  grid-area: GRID_SECTION_THREE;
+}
+.GRID_CONTAINER .GRID_SECTION_FOUR {
+  padding: 10px 0px;
+  background: rgb(238, 109, 109);
+  grid-area: GRID_SECTION_FOUR;
+}
+.GRID_CONTAINER .GRID_SECTION_FIVE {
+  padding: 10px 0px;
+  background: rgb(238, 109, 109);
+  grid-area: GRID_SECTION_FIVE;
+}
+.GRID_CONTAINER .GRID_FOOTER {
+  padding: 10px 0px;
+  background: rgb(238, 109, 109);
+  grid-area: GRID_FOOTER;
+}
+
+/*
+container_header
+container_header_logo
+container_header_button
+*/
+.container_header {
+  width: 100%;
+  padding: 30px 30px;
+  background: hsl(207deg, 100%, 98%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_header .container_header_logo {
+  width: 230px;
+  height: 35px;
+}
+.container_header .container_header_button {
+  width: 150px;
+  padding: 10px 0px;
+  background: hsl(207deg, 100%, 98%);
+  border: 1px solid hsl(322deg, 100%, 66%);
+  border-radius: 100px;
+  cursor: pointer;
+  color: hsl(322deg, 100%, 66%);
+  transition: 0.2s all;
+}
+.container_header .container_header_button:hover {
+  border: 1px solid hsl(321deg, 100%, 78%);
+  color: hsl(321deg, 100%, 78%);
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .container_header .container_header_logo {
+    width: 120px;
+    height: 25px;
+  }
+  .container_header .container_header_button {
+    width: 100px;
+    padding: 8px 0px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
