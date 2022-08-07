@@ -1,0 +1,126 @@
+@import "colorFont";
+
+
+.container_secFour{
+    width: 100%;
+    padding: 10px 0px;
+    background: white;
+    
+    .container_secFour_blockCurvaTop{
+        width: 100%;
+        height: 100px;
+        background-image: url(../images/bg-section-top-desktop-2.svg);
+        background-size: 100% 100%;
+    }
+
+    .container_secFour_blockBox{
+        width: 100%;
+        padding: 10px 50px;
+        background: $Very_Pale_Blue;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .container_secFour_blockBox_section{
+            width: 500px;
+            padding: 10px 0px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            .container_secFour_blockBox_section_title{
+                font-weight: $font_weight_grande;
+                font-size:$font_size_encabezados_peque;
+                color: $Very_Dark_Cyan;
+            }
+    
+            .container_secFour_blockBox_section_parrafo{
+                margin-top: 20px;
+                color: $Very_Dark_Cyan;
+                font-weight: $font_weight_peque;
+            }
+        }
+
+        .container_secFour_blockBox_image{
+            width: 550px;
+            height: 550px;
+        }
+        
+    }
+
+    .container_secFour_blockCurvaBottom{
+        width: 100%;
+        height: 100px;
+        background-image: url(../images/bg-section-bottom-desktop-2.svg);
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+///////////////////////////////////////////////@at-root
+@media (min-width:320px) and (max-width:423px){
+    .container_secFour{
+        width: 100%;
+        padding: 10px 0px;
+        background: white;
+        
+        .container_secFour_blockCurvaTop{
+            width: 100%;
+            height: 100px;
+            background-image: url(../images/bg-section-top-mobile-2.svg);
+            background-size: 100% 100%;
+        }
+    
+        .container_secFour_blockBox{
+           
+            //@at-root
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 10px;
+
+            .container_secFour_blockBox_section{
+                
+
+                //@at-root
+                margin: 100px auto;
+                width: 100%;
+                text-align: center;
+                .container_secFour_blockBox_section_title{
+                  
+                    //@at-root
+                    font-size: $font_titles;
+                    margin: auto;
+                }
+        
+                .container_secFour_blockBox_section_parrafo{
+                    //@at-root
+                    margin-top: 20px;
+                    color: $Very_Dark_Cyan;
+                    font-weight: $font_weight_peque;
+                }
+            }
+    
+            .container_secFour_blockBox_image{
+                //@at-root
+                width: 100%;
+                height: 300px;
+            }
+            
+        }
+    
+        .container_secFour_blockCurvaBottom{
+            width: 100%;
+            height: 100px;
+            background-image: url(../images/bg-section-bottom-mobile-2.svg);
+            background-size: 100% 100%;
+        }
+    }
+    
+}

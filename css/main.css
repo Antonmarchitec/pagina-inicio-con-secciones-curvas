@@ -227,16 +227,6 @@ container_header_button
     text-align: center;
   }
 }
-/*
-container_secTwo
-container_secTwo_blockCurva
-container_secTwo_blockBox
-container_secTwo_blockBox_section
-container_secTwo_blockBox_section_title
-container_secTwo_blockBox_section_parrafo
-container_secTwo_blockBox_image
-container_secTwo_blockCurva
-*/
 .container_secTwo {
   width: 100%;
   padding: 10px 0px;
@@ -378,6 +368,132 @@ container_secTwo_blockCurva
     margin-top: 20px;
     color: hsl(192deg, 100%, 9%);
   }
+}
+.container_secFour {
+  width: 100%;
+  padding: 10px 0px;
+  background: white;
+}
+.container_secFour .container_secFour_blockCurvaTop {
+  width: 100%;
+  height: 100px;
+  background-image: url(../images/bg-section-top-desktop-2.svg);
+  background-size: 100% 100%;
+}
+.container_secFour .container_secFour_blockBox {
+  width: 100%;
+  padding: 10px 50px;
+  background: hsl(207deg, 100%, 98%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_secFour .container_secFour_blockBox .container_secFour_blockBox_section {
+  width: 500px;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_secFour .container_secFour_blockBox .container_secFour_blockBox_section .container_secFour_blockBox_section_title {
+  font-weight: 700;
+  font-size: 40px;
+  color: hsl(192deg, 100%, 9%);
+}
+.container_secFour .container_secFour_blockBox .container_secFour_blockBox_section .container_secFour_blockBox_section_parrafo {
+  margin-top: 20px;
+  color: hsl(192deg, 100%, 9%);
+  font-weight: 400;
+}
+.container_secFour .container_secFour_blockBox .container_secFour_blockBox_image {
+  width: 550px;
+  height: 550px;
+}
+.container_secFour .container_secFour_blockCurvaBottom {
+  width: 100%;
+  height: 100px;
+  background-image: url(../images/bg-section-bottom-desktop-2.svg);
+  background-size: 100% 100%;
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .container_secFour {
+    width: 100%;
+    padding: 10px 0px;
+    background: white;
+  }
+  .container_secFour .container_secFour_blockCurvaTop {
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/bg-section-top-mobile-2.svg);
+    background-size: 100% 100%;
+  }
+  .container_secFour .container_secFour_blockBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  .container_secFour .container_secFour_blockBox .container_secFour_blockBox_section {
+    margin: 100px auto;
+    width: 100%;
+    text-align: center;
+  }
+  .container_secFour .container_secFour_blockBox .container_secFour_blockBox_section .container_secFour_blockBox_section_title {
+    font-size: 25px;
+    margin: auto;
+  }
+  .container_secFour .container_secFour_blockBox .container_secFour_blockBox_section .container_secFour_blockBox_section_parrafo {
+    margin-top: 20px;
+    color: hsl(192deg, 100%, 9%);
+    font-weight: 400;
+  }
+  .container_secFour .container_secFour_blockBox .container_secFour_blockBox_image {
+    width: 100%;
+    height: 300px;
+  }
+  .container_secFour .container_secFour_blockCurvaBottom {
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/bg-section-bottom-mobile-2.svg);
+    background-size: 100% 100%;
+  }
+}
+/*
+container_secFive
+container_secFive_title
+container_secFive_button
+*/
+.container_secFive {
+  width: 100%;
+  padding: 80px 0px;
+  background: white;
+}
+.container_secFive .container_secFive_title {
+  text-align: center;
+  font-size: 40px;
+}
+.container_secFive .container_secFive_button {
+  margin-top: 30px;
+  width: 350px;
+  padding: 20px 0px;
+  border: none;
+  background: hsl(322deg, 100%, 66%);
+  color: hsl(207deg, 100%, 98%);
+  border-radius: 50px;
+  margin-left: calc(50% - 175px);
+  transition: 0.3s all;
+  box-shadow: 0px 0px 5px grey;
+}
+.container_secFive .container_secFive_button:hover {
+  background: hsl(321deg, 100%, 78%);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+@import "colorFont";
+
+
+/*
+container_secFive
+container_secFive_title
+container_secFive_button
+*/
+
+
+.container_secFive{
+    width: 100%;
+    padding: 80px 0px;
+    background: white;
+    .container_secFive_title{
+        text-align: center;
+        font-size: $font_size_encabezados_peque;
+    }
+
+    .container_secFive_button{
+        margin-top: 30px;
+        width: 350px;
+        padding: 20px 0px;
+        border: none;
+        background: $Pink;
+        color: $Very_Pale_Blue;
+        border-radius: 50px;
+        margin-left:calc(50% - 175px);
+        transition: 0.3s all;
+        box-shadow: 0px 0px 5px grey;
+    }
+    .container_secFive_button:hover{
+        background: $Light_Pink;
+        cursor: pointer;
+    }
+}
