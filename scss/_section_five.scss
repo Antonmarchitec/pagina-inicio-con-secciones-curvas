@@ -1,11 +1,6 @@
 @import "colorFont";
 
 
-/*
-container_secFive
-container_secFive_title
-container_secFive_button
-*/
 
 
 .container_secFive{
@@ -33,4 +28,43 @@ container_secFive_button
         background: $Light_Pink;
         cursor: pointer;
     }
+}
+
+
+
+@media (min-width:320px) and (max-width:423px){
+    .container_secFive{
+        //@at-root
+        width: 100%;
+        padding: 50px 0px;
+        .container_secFive_title{
+            text-align: center;
+            font-size: $font_titles;
+            background: padding-box;
+            color: $Very_Dark_Cyan;
+
+        }
+    
+        .container_secFive_button{
+            margin-top: 30px;
+           
+            border: none;
+            background: $Pink;
+            color: $Very_Pale_Blue;
+            border-radius: 50px;
+            transition: 0.3s all;
+            box-shadow: 0px 0px 5px grey;
+
+            //@at-root
+            width: 250px;
+            padding: 15px 0px;
+            margin-left:calc(50% - 125px);
+
+        }
+        .container_secFive_button:hover{
+            background: $Light_Pink;
+            cursor: pointer;
+        }
+    }
+    
 }
