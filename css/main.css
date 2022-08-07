@@ -192,7 +192,7 @@ container_header_button
     background: hsl(207deg, 100%, 98%);
   }
   .container_sectOne .container_sectOne_boxTop .container_sectOne_boxTop_title {
-    font-size: 45px;
+    font-size: 40px;
   }
   .container_sectOne .container_sectOne_boxTop .container_sectOne_boxTop_parrafo {
     width: 100%;
@@ -269,7 +269,7 @@ container_secTwo_blockCurva
 }
 .container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_section .container_secTwo_blockBox_section_title {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   color: hsl(192deg, 100%, 9%);
 }
 .container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_section .container_secTwo_blockBox_section_parrafo {
@@ -314,7 +314,7 @@ container_secTwo_blockCurva
     text-align: center;
   }
   .container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_section .container_secTwo_blockBox_section_title {
-    font-size: 35px;
+    font-size: 25px;
     margin: auto;
   }
   .container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_section .container_secTwo_blockBox_section_parrafo {
@@ -331,6 +331,52 @@ container_secTwo_blockCurva
     height: 100px;
     background-image: url(../images/bg-section-bottom-mobile-1.svg);
     background-size: 100% 100%;
+  }
+}
+.container_secThree {
+  width: 100%;
+  padding: 100px 50px;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_secThree .container_secThree_boxImage {
+  width: 550px;
+  height: 550px;
+}
+.container_secThree .container_secThree_boxSection {
+  width: 500px;
+  padding: 10px;
+}
+.container_secThree .container_secThree_boxSection .container_secThree_boxSection_title {
+  font-size: 40px;
+}
+.container_secThree .container_secThree_boxSection .container_secThree_boxSection_parrafo {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .container_secThree {
+    padding: 30px 10px;
+  }
+  .container_secThree .container_secThree_boxImage {
+    width: 100%;
+    height: 300px;
+  }
+  .container_secThree .container_secThree_boxSection {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+  }
+  .container_secThree .container_secThree_boxSection .container_secThree_boxSection_title {
+    font-size: 25px;
+  }
+  .container_secThree .container_secThree_boxSection .container_secThree_boxSection_parrafo {
+    margin-top: 20px;
+    color: hsl(192deg, 100%, 9%);
   }
 }
 
