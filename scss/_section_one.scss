@@ -1,0 +1,165 @@
+@import "colorFont";
+
+
+
+.container_sectOne{
+    width: 100%;
+    padding: 100px 30px;
+    background: $Very_Pale_Blue;
+    text-align: center;
+
+    //BOX TOP
+    .container_sectOne_boxTop{
+        width: 100%;
+        padding: 10px 0px;
+        background: $Very_Pale_Blue;
+        .container_sectOne_boxTop_title{
+            font-family:$font_encabezados;
+            font-weight:$font_weight_encabezados;
+            font-size: $font_size_encabezados;
+            color: $Very_Dark_Cyan;
+        }
+
+        .container_sectOne_boxTop_parrafo{
+            margin: 20px auto;
+            width: 40%;
+            font-weight:$font_weight_peque;
+            color: $Very_Dark_Cyan;
+        }
+
+        .container_sectOne_boxTop_button{
+            margin-top: 20px;
+            width: 23%;
+            padding: 23px 0px;
+            border: none;
+            color: $Very_Pale_Blue;
+            background: $Pink;
+            border-radius: 100px;
+            box-shadow: 0px 0px 2px $Very_Dark_Cyan;
+            font-size: $font_weight_peque;
+            transition: 0.3s all;
+        }
+        .container_sectOne_boxTop_button:hover{
+            background: $Light_Pink;
+            cursor: pointer;
+        }
+    }
+
+    //IMAGEN
+    .container_sectOne_boxImage{
+        margin:80px auto;
+        width: 80%;
+        height: 700px;
+        padding: 10px 0px;
+    }
+
+    //container_sectOne_boxMarker
+    .container_sectOne_boxMarker{
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .container_sectOne_boxMarker_box{
+            width: auto;
+            padding: 5px 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .container_sectOne_boxMarker_box_image{
+                width: 40px;
+                height: 40px;
+            }
+            .container_sectOne_boxMarker_box_number{
+                font-size: 70px;
+                font-weight: $font_weight_grande;
+            }
+            .container_sectOne_boxMarker_box_text{
+                font-size: $font_weight_peque;
+                font-size: 18px;
+                color: $Very_Dark_Cyan;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+@media (min-width:320px) and (max-width:423px){
+    .container_sectOne{
+       
+         
+        //@at-root
+        padding: 100px 20px;
+
+        //BOX TOP
+        .container_sectOne_boxTop{
+            width: 100%;
+            padding: 10px 0px;
+            background: $Very_Pale_Blue;
+            .container_sectOne_boxTop_title{
+                
+
+                //@at-root
+                font-size: $font_size_encabezados_peque;
+
+            }
+    
+            .container_sectOne_boxTop_parrafo{
+               
+
+                //@at-root
+                width: 100%;
+
+                
+            }
+    
+            .container_sectOne_boxTop_button{
+                
+                //@at-root
+                width: 80%;
+                padding: 15px 0px;
+
+            }
+        }
+    
+        //IMAGEN
+        .container_sectOne_boxImage{
+            //@at-root
+            margin:80px auto;
+            width: 90%;
+            height: 250px;
+            padding: 10px 0px;
+        }
+    
+        //container_sectOne_boxMarker
+        .container_sectOne_boxMarker{
+           
+            .container_sectOne_boxMarker_box{
+                
+                //@at-root
+                width: 200px;
+                padding: 5px 0px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .container_sectOne_boxMarker_box_image{
+                    width: 30px;
+                    height: 30px;
+                }
+                .container_sectOne_boxMarker_box_number{
+                    font-size: 70px;
+                    font-weight: $font_weight_grande;
+                }
+                .container_sectOne_boxMarker_box_text{
+                   
+                    //@at-root
+                    color: rgb(165, 164, 164);
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
