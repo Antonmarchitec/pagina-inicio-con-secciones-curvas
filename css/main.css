@@ -19,8 +19,10 @@ GRID_FOOTER*/
 .GRID_CONTAINER {
   width: 100%;
   max-width: 1440px;
+  background: rgb(186, 226, 153);
   margin: auto;
   display: grid;
+  grid-gap: 1em;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "GRID_HEADER        GRID_HEADER " "GRID_SECTION_ONE   GRID_SECTION_ONE" "GRID_SECTION_TWO   GRID_SECTION_TWO" "GRID_SECTION_THREE GRID_SECTION_THREE" "GRID_SECTION_FOUR  GRID_SECTION_FOUR" "GRID_SECTION_FIVE  GRID_SECTION_FIVE" "GRID_FOOTER        GRID_FOOTER";
@@ -69,7 +71,7 @@ container_header_button
 .container_header {
   width: 100%;
   padding: 30px 30px;
-  background: hsl(207deg, 100%, 98%);
+  background: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -108,13 +110,12 @@ container_header_button
 .container_sectOne {
   width: 100%;
   padding: 100px 30px;
-  background: hsl(207deg, 100%, 98%);
   text-align: center;
+  background: white;
 }
 .container_sectOne .container_sectOne_boxTop {
   width: 100%;
   padding: 10px 0px;
-  background: hsl(207deg, 100%, 98%);
 }
 .container_sectOne .container_sectOne_boxTop .container_sectOne_boxTop_title {
   font-family: "Poppins", sans-serif;
@@ -191,7 +192,7 @@ container_header_button
     background: hsl(207deg, 100%, 98%);
   }
   .container_sectOne .container_sectOne_boxTop .container_sectOne_boxTop_title {
-    font-size: 25px;
+    font-size: 45px;
   }
   .container_sectOne .container_sectOne_boxTop .container_sectOne_boxTop_parrafo {
     width: 100%;
@@ -224,6 +225,112 @@ container_header_button
   .container_sectOne .container_sectOne_boxMarker .container_sectOne_boxMarker_box .container_sectOne_boxMarker_box_text {
     color: rgb(165, 164, 164);
     text-align: center;
+  }
+}
+/*
+container_secTwo
+container_secTwo_blockCurva
+container_secTwo_blockBox
+container_secTwo_blockBox_section
+container_secTwo_blockBox_section_title
+container_secTwo_blockBox_section_parrafo
+container_secTwo_blockBox_image
+container_secTwo_blockCurva
+*/
+.container_secTwo {
+  width: 100%;
+  padding: 10px 0px;
+  background: white;
+}
+.container_secTwo .container_secTwo_blockCurvaTop {
+  width: 100%;
+  height: 100px;
+  background-image: url(../images/bg-section-top-desktop-1.svg);
+  background-size: 100% 100%;
+}
+.container_secTwo .container_secTwo_blockBox {
+  width: 100%;
+  padding: 10px 50px;
+  background: hsl(207deg, 100%, 98%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_section {
+  width: 500px;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_section .container_secTwo_blockBox_section_title {
+  font-weight: 700;
+  font-size: 45px;
+  color: hsl(192deg, 100%, 9%);
+}
+.container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_section .container_secTwo_blockBox_section_parrafo {
+  margin-top: 20px;
+  color: hsl(192deg, 100%, 9%);
+  font-weight: 400;
+}
+.container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_image {
+  width: 550px;
+  height: 550px;
+}
+.container_secTwo .container_secTwo_blockCurvaBottom {
+  width: 100%;
+  height: 100px;
+  background-image: url(../images/bg-section-bottom-desktop-1_pieyour.svg);
+  background-size: 100% 100%;
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .container_secTwo {
+    width: 100%;
+    padding: 10px 0px;
+    background: white;
+  }
+  .container_secTwo .container_secTwo_blockCurvaTop {
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/bg-section-top-mobile-1.svg);
+    background-size: 100% 100%;
+  }
+  .container_secTwo .container_secTwo_blockBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  .container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_section {
+    margin: 100px auto;
+    width: 100%;
+    text-align: center;
+  }
+  .container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_section .container_secTwo_blockBox_section_title {
+    font-size: 35px;
+    margin: auto;
+  }
+  .container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_section .container_secTwo_blockBox_section_parrafo {
+    margin-top: 20px;
+    color: hsl(192deg, 100%, 9%);
+    font-weight: 400;
+  }
+  .container_secTwo .container_secTwo_blockBox .container_secTwo_blockBox_image {
+    width: 100%;
+    height: 300px;
+  }
+  .container_secTwo .container_secTwo_blockCurvaBottom {
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/bg-section-bottom-mobile-1.svg);
+    background-size: 100% 100%;
   }
 }
 
