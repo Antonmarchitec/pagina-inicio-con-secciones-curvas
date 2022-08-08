@@ -608,7 +608,7 @@ container_header_button
 }
 .container_contFooter .container_contFooter_block .container_contFooter_block_newsletter .container_contFooter_newsletter_boxInput .container_contFooter_newsletter_boxInput_input {
   width: 300px;
-  padding: 15px;
+  padding: 10px;
   border-radius: none;
   outline: none;
   border: 1px solid transparent;
@@ -630,7 +630,7 @@ container_header_button
 .container_contFooter .container_contFooter_block .container_contFooter_block_newsletter .container_contFooter_newsletter_boxInput .container_contFooter_newsletter_boxInput_button {
   margin-left: 5px;
   width: 150px;
-  padding: 15px 0px;
+  padding: 10px 0px;
   background: hsl(322deg, 100%, 66%);
   color: hsl(207deg, 100%, 98%);
   border: none;
