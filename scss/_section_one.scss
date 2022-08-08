@@ -16,6 +16,8 @@
             font-weight:$font_weight_encabezados;
             font-size: $font_size_encabezados;
             color: $Very_Dark_Cyan;
+            animation-duration: 0.5s;
+            animation-delay: 0.5s;
         }
 
         .container_sectOne_boxTop_parrafo{
@@ -23,6 +25,8 @@
             width: 40%;
             font-weight:$font_weight_peque;
             color: $Very_Dark_Cyan;
+            animation-duration: 0.5s;
+            animation-delay: 0.8s;
         }
 
         .container_sectOne_boxTop_button{
@@ -36,6 +40,8 @@
             box-shadow: 0px 0px 2px $Very_Dark_Cyan;
             font-size: $font_weight_peque;
             transition: 0.3s all;
+            animation-duration: 0.5s;
+            animation-delay: 1s;
         }
         .container_sectOne_boxTop_button:hover{
             background: $Light_Pink;
@@ -49,6 +55,8 @@
         width: 80%;
         height: 700px;
         padding: 10px 0px;
+        animation-duration: 0.5s;
+        animation-delay: 1.2s;
     }
 
     //container_sectOne_boxMarker

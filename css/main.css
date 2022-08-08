@@ -106,12 +106,16 @@ container_header_button
   font-weight: 700;
   font-size: 53px;
   color: hsl(192deg, 100%, 9%);
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 .container_sectOne .container_sectOne_boxTop .container_sectOne_boxTop_parrafo {
   margin: 20px auto;
   width: 40%;
   font-weight: 400;
   color: hsl(192deg, 100%, 9%);
+  animation-duration: 0.5s;
+  animation-delay: 0.8s;
 }
 .container_sectOne .container_sectOne_boxTop .container_sectOne_boxTop_button {
   margin-top: 20px;
@@ -124,6 +128,8 @@ container_header_button
   box-shadow: 0px 0px 2px hsl(192deg, 100%, 9%);
   font-size: 400;
   transition: 0.3s all;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
 }
 .container_sectOne .container_sectOne_boxTop .container_sectOne_boxTop_button:hover {
   background: hsl(321deg, 100%, 78%);
@@ -134,6 +140,8 @@ container_header_button
   width: 80%;
   height: 700px;
   padding: 10px 0px;
+  animation-duration: 0.5s;
+  animation-delay: 1.2s;
 }
 .container_sectOne .container_sectOne_boxMarker {
   width: 100%;
@@ -457,6 +465,8 @@ container_header_button
 .container_secFive .container_secFive_title {
   text-align: center;
   font-size: 40px;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 .container_secFive .container_secFive_button {
   margin-top: 30px;
@@ -469,6 +479,8 @@ container_header_button
   margin-left: calc(50% - 175px);
   transition: 0.3s all;
   box-shadow: 0px 0px 5px grey;
+  animation-duration: 0.5s;
+  animation-delay: 0.8s;
 }
 .container_secFive .container_secFive_button:hover {
   background: hsl(321deg, 100%, 78%);
