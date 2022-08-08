@@ -749,12 +749,8 @@ container_header_button
     position: relative;
   }
   .container_contFooter .container_contFooter_block .container_contFooter_block_newsletter .container_contFooter_newsletter_boxInput .container_contFooter_newsletter_boxInput_input {
-    border-radius: none;
-    outline: none;
-    border: 1px solid transparent;
-    border-radius: 5px;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
   }
   .container_contFooter .container_contFooter_block .container_contFooter_block_newsletter .container_contFooter_newsletter_boxInput .container_contFooter_newsletter_boxInput_text {
     margin: 10px 0px;
@@ -763,16 +759,8 @@ container_header_button
     display: block;
   }
   .container_contFooter .container_contFooter_block .container_contFooter_block_newsletter .container_contFooter_newsletter_boxInput .container_contFooter_newsletter_boxInput_button {
-    margin-left: 5px;
-    background: hsl(322deg, 100%, 66%);
-    color: hsl(207deg, 100%, 98%);
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    border: 1px solid transparent;
-    transition: 0.5s all;
     width: 100px;
-    padding: 15px 0px;
+    padding: 10px 0px;
     position: absolute;
     right: 0;
     top: 60px;
